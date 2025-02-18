@@ -1,0 +1,25 @@
+/*.an:link{
+    color:rgb(255, 0, 0);
+}
+.an:hover{
+    color: rgb(6, 16, 216);
+}
+
+button:hover{
+
+    color:rgb(86, 192, 0)
+}*/
+
+h1{
+    background-color:darkgoldenrod;
+    margin: 2px;
+    padding: 5px;
+}
+
+div{
+    display: flex;
+    flex-direction:row;
+    background-color: black;
+    width:200px;
+    flex-wrap: wrap;
+}

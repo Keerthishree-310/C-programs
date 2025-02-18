@@ -1,0 +1,132 @@
+/*#one
+{
+    width:300px;
+    height: 309px;
+    background-color: bisque;
+    position:relative;
+    top: 200px;
+    left: 200px;
+}
+*/
+/*#two
+{
+    width:300px;
+    height: 309px;
+    background-color:darksalmon;
+    position:absolute;
+    top: 600px;
+    left: 200px;
+}*/
+/*
+#three
+{ width:300px;
+    height: 309px;
+    background-color:cornsilk;
+    position:fixed;
+    top: 200px;
+    left: 200px;}
+
+    */
+  /*  #four{
+        width:300px;
+        height: 309px;
+        background-color:blanchedalmond;
+        position:sticky;
+        bottom
+        top:0px;
+        left: 200px;
+    }
+*/
+/*
+    li:nth-child(odd)
+    {
+      background-color:gray; 
+    }
+*/
+
+/*h1{left:auto;
+    text-shadow: 4px 0px 3px  black;}
+h2{ text-shadow: 0px 5px 4px rgb(15, 15, 16);}
+button{ background-color:skyblue;
+    box-shadow:5px 5px 2px black ;
+}*/
+#box
+{width: fit-content;
+    font-size:50px;
+background-color:bisque;
+animation: myslides;
+animation-duration: 5s;
+animation-delay: 1s;
+animation-iteration-count:2;
+animation-timing-function: ease-in;
+}
+@keyframes myslides
+{
+    from{margin-left:100%;}
+    to{margin-left: 0%;}
+}
+#box2{
+    width:fit-content;
+    font-size:50px;
+    background-color: pink;
+    animation: 3s ease 1s 2 myslides2;
+    
+}
+@keyframes myslides2
+{
+    from{margin-left:100%;}
+    to{margin-left:50%;}
+    50%{
+        transform:rotate(360deg);
+    }
+    
+}
+
+#box3{width:fit-content;
+    font-size: 50px;
+    background-color: bisque;
+    animation: 3s ease 1s 2 myslides3;
+}
+@keyframes myslides3{
+    20%{background-color: burlywood;}
+    40%{background-color: coral;}
+    60%{background-color: darkolivegreen;}
+    80%{background-color: indianred;}
+    100%{background-color: moccasin;}
+}
+
+
+#box4{width:fit-content;
+font-size: 50px;
+background-color: darksalmon;
+animation:5s ease 1s 2 myslides4;}
+@keyframes myslides4{
+    0%{
+        margin-left:100%;
+        background-color: aquamarine;
+    }
+    20%{
+        margin-left: 80%;
+        background-color: chocolate;
+    }
+    40%
+    {margin-left:60% ;
+    background-color: coral;
+    }
+    60%
+    {
+        margin-left: 40%;
+        background-color: dimgray;
+    }
+    80%
+    {
+        margin-left: 20%;
+        background-color: darkmagenta;
+    }
+    100%
+    {
+        margin-left: 0%;
+        background-color: indianred;
+    }
+
+}
